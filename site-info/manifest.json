@@ -1,16 +1,18 @@
 {
-  "version": 1,
+  "version": "2.0.0",
   "updated": "2026-04-01T12:00:00Z",
-  "member": {
-    "path": "/member/:slug",
-    "items": [
-      {
-        "slug": "zaima-mashiat",
-        "name": "Zaima Mashiat",
-        "role": "AI Engineer",
-        "file": "members/zaima-mashiat.mdx",
-        "published": true
-      }
-    ]
+  "collections": {
+    "member": {
+      "path": "/member/:slug",
+      "items": [
+        {
+          "slug": "zaima-mashiat",
+          "name": "Zaima Mashiat",
+          "role": "AI Engineer",
+          "file": "members/zaima-mashiat.mdx",
+          "published": true
+        }
+      ]
+    }
   }
 }
